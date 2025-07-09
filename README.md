@@ -1,14 +1,14 @@
 
-# 🔭 Pulsar Detection with MLP (HTRU2 Dataset)
+# Pulsar Detection with MLP (HTRU2 Dataset)
 
 Proyecto final del curso **Big Data en Astrofísica**. Se implementa una red neuronal tipo *Multilayer Perceptron (MLP)* para la clasificación automática de señales como **púlsares reales** o **interferencias**, utilizando el conjunto de datos **HTRU2**.
 
 ---
 
-## 📁 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```
-📦 pulsar-mlp
+ pulsar-mlp
 ├── PULSAR1.ipynb           # Notebook principal (análisis + entrenamiento + evaluación)
 ├── /models                 # Scripts de modelos alternativos (SVM, GMM, LogReg)
 ├── /utils                  # Scripts de preprocesamiento, normalización, PCA
@@ -19,7 +19,7 @@ Proyecto final del curso **Big Data en Astrofísica**. Se implementa una red neu
 
 ---
 
-## 📌 Objetivos del proyecto
+##  Objetivos del proyecto
 
 - Explorar y visualizar el dataset HTRU2.
 - Aplicar normalización y PCA para análisis exploratorio.
@@ -29,7 +29,7 @@ Proyecto final del curso **Big Data en Astrofísica**. Se implementa una red neu
 
 ---
 
-## 📊 Dataset HTRU2
+##  Dataset HTRU2
 
 - 17.898 ejemplos
 - 8 características estadísticas por muestra:
@@ -42,7 +42,7 @@ Fuente: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/dataset
 
 ---
 
-## 🧠 Arquitectura del MLP
+## Arquitectura del MLP
 
 ```text
 Input (8)
@@ -58,7 +58,7 @@ Input (8)
 
 ---
 
-## 📈 Resultados
+## Resultados
 
 | Métrica            | Valor     |
 |--------------------|-----------|
@@ -70,7 +70,7 @@ Input (8)
 
 ---
 
-## 🧪 Validación Adicional
+## Validación Adicional
 
 - Simulación de datos gaussianos por clase
 - Evaluación con datos nuevos
@@ -78,7 +78,7 @@ Input (8)
 
 ---
 
-## 🧩 Herramientas utilizadas
+## Herramientas utilizadas
 
 - `PyTorch` – entrenamiento del modelo
 - `scikit-learn` – métricas, PCA y validación
@@ -87,7 +87,7 @@ Input (8)
 
 ---
 
-## 📄 Informe final
+## Informe final
 
 El notebook `PULSAR1.ipynb` contiene:
 
@@ -99,19 +99,19 @@ El notebook `PULSAR1.ipynb` contiene:
 
 ---
 
-## 📬 Autores
+## Autores
 
 - **Nicolás Campos**
 - **Ángel Paisano**
 - **Irma Pizarro**
 - **Marcelo Andrade**
 
-Departamento de Física, Universidad de Santiago de Chile  
+Estudiantes de Astrofísica con mención en Ciencia de Datos, Departamento de Física, Universidad de Santiago de Chile  
 Julio 2025
 
 ---
 
-## 🧠 Ideas futuras
+## Ideas futuras
 
 - Aplicar penalización por clase (weighted loss)
 - Probar arquitecturas más profundas o RNN
